@@ -1,0 +1,62 @@
+
+.app-title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.todolist-container{
+    height: 600px;
+    width: 600px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    margin: 5px auto;
+    border-radius: 20px;
+    padding: 8px;
+    overflow-y: scroll;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border:1px solid rgb(22, 18, 18);
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add-icon{
+    height: 32px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.categeory-select{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    border: 1px solid rgb(20, 17, 17);
+    margin-left: 5px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    .app-title{
+       margin-left: 250px;
+        width: 250px;
+    }
+    .todolist-container{
+        margin: 0% 20%;
+    }
+  
+.add-item-container{
+    margin-left: 300px;
+}
+}
